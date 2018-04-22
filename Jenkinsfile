@@ -1,3 +1,4 @@
+
 node {
    
    stage 'Checkout'
@@ -12,6 +13,6 @@ node {
      "mvn package"
   // step([$class: 'JUnitResultArchiver', testResults: ]
 echo "build complete"
-echo " done"
+
 }
 
