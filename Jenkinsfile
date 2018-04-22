@@ -10,6 +10,6 @@ node {
    stage 'Build'
    
    bat "${mvnHome}\\bin\\mvn -Dmaven.test.failure.ignore clean package"
-   step([$class: 'JUnitResultArchiver', testResults: '
+   step([$class: 'JUnitResultArchiver', testResults: ]
 }
 
