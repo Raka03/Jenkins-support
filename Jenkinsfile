@@ -9,7 +9,7 @@ node {
   
    stage 'Build'
    
-   bat "${M2_HOME}\\bin\\ mvn package"
+     "mvn package"
   // step([$class: 'JUnitResultArchiver', testResults: ]
 echo "build complete"
 echo " done"
