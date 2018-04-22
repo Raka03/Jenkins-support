@@ -4,7 +4,7 @@ node {
    
    git url: 'https://github.com/Raka03/Jenkins-support.git'
 
-     def mvnHome = tool 'M2_HOME'
+     def mvnHome = 'M2_HOME'
 
   
    stage 'Build'
